@@ -36,16 +36,42 @@ body p{
 
     box-shadow: 0.1rem 0.1rem black;
 }
+
 .calculadora{
     width: 400px;
 }
+
 .display{
     font-size: 2em;
-    text-align: right;
 
     width: 100%;
+    text-align: right;
 }
 
 .btn{
+    font-size: 1em;
+
     width: 100%;
+    height: 50px;
+
+    border: none;
+    background: #dfdfdf;
+
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #9e9898;
+}
+
+.btn-eq:hover{
+    background-color: rgb(22, 84, 218);
+}
+
+.btn-clear:hover{
+    background-color: rgba(252, 169, 16, 0.842);
+}
+
+.btn-del:hover{
+    background-color: red;
 }
